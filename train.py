@@ -15,6 +15,8 @@ from gan_training.eval import Evaluator
 from gan_training.config import (
     load_config, build_models, build_optimizers, build_lr_scheduler,
 )
+from PIL import ImageFile
+ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 # Arguments
 parser = argparse.ArgumentParser(
