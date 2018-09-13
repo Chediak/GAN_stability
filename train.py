@@ -158,7 +158,7 @@ trainer = Trainer(
 
 # Training loop
 print('Start training...')
-while epoch_idx < 100:
+while epoch_idx < 10:
     epoch_idx += 1
     print('Start epoch %d...' % epoch_idx)
 

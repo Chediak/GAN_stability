@@ -5,7 +5,7 @@ data:
   lsun_categories_train: bedroom_train
   lsun_categories_test: bedroom_test
   img_size: 128
-  nlabels: 1000
+  nlabels: 1
 generator:
   name: resnet2
   kwargs:
