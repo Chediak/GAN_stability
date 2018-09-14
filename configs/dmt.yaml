@@ -48,7 +48,7 @@ training:
 test:
   batch_size: 16
   sample_size: 16
-  sample_nrow: z
+  sample_nrow: 4
   use_model_average: false
   compute_inception: true
   conditional_samples: true
