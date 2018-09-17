@@ -1,7 +1,7 @@
 data:
   type: image
-  train_dir: ../gdrive/My Drive/data/DMT
-  test_dir: ../gdrive/My Drive/data/DMT
+  train_dir: ../gdrive/My\ Drive/data/DMT
+  test_dir: ../gdrive/My\ Drive/data/DMT
   lsun_categories_train: bedroom_train
   lsun_categories_test: bedroom_test
   img_size: 128
